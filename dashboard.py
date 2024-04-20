@@ -41,7 +41,7 @@ def create_grouped_df(df, group_col, agg_col):
 # ------------------------------------------------------------------------
 
 # membaca dataset
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("dashboard/main_data.csv")
 
 df.sort_values(by="date", inplace=True)
 df.reset_index(inplace=True)
